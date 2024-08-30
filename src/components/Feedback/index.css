@@ -1,0 +1,51 @@
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 700px;
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 9px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
+}
+
+.title {
+  color: #0f172a;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.emojis-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.greeting-icon {
+  height: 60px;
+  width: 70px;
+}
+
+.greetings {
+  color: #1e293b;
+  font-size: 17px;
+}
